@@ -1,5 +1,7 @@
 # Slackblast
 
+#FORKED from F3Nation-Community
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
@@ -110,6 +112,8 @@ Use vscode locally with a `.env` file with the above variables. With vscode Azur
 
 Pushing to the github repo should trigger a new deployment to Azure if you set up the AppService correct.
 <br><br>
+   
+When choosing an App Service subscription to run on, the B1 or higher level is adequate for a constant runtime. The "free" tier does not run 24/7.
 
 # Startup command(s)
 
